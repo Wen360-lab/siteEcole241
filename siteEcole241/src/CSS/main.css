@@ -90,9 +90,12 @@ main {
 .titre-formation {
     font-weight: bold;
     font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .sous-titre-formation {
+    text-align: center;
     font-size: 16px;
 }
 
@@ -115,5 +118,92 @@ main {
 .titre-card-formation {
     font-size: 12px;
     font-weight: 700;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+/* STYLE DE LA SECTION PROJETS DES ÉTUDIANTS */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.project-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 35px; 
+}
+
+.container-realisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-realisation {
+    padding: 30px 45px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.img-projet {
+    padding: 30px 95px;
+    background-color: #55555557;
+    width: 100%;
+}
+
+.texte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.titre-projet {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.description-projet {
+    font-size: 12px;
+    color: #555555;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* STYLE DE LA SECTION TÉMOIGNAGES*/
+/* ---------------------------------------------------------------------------------------------------------------- */
+.testimony-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 35px; 
+}
+
+.card-temoignage {
+    background-color:  #55555557;
+    padding: 40px 50px; 
+    border-radius: 8px;
+    box-shadow: 2px 3px 10px #6d6d6d;
+}
+
+.paragraphe {
+    margin-bottom: 30px;
+    color: #555555;
+}
+
+.personne {
+    text-align: right;
 }
 /* ---------------------------------------------------------------------------------------------------------------- */

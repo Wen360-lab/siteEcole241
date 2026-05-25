@@ -29,6 +29,22 @@ header{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.header-container ul li a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: black;
+    transition: width 0.2s ease-in-out;
+}
+
+.header-container ul li a:hover::after {
+    width: 100%;
 }
 
 .btn-postuler {

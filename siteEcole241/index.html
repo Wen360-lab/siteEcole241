@@ -21,12 +21,12 @@
           <nav class="nav">
           <!-- Les navLinks -->
             <ul>
-              <li><a href="#">Accueil</a></li>
-              <li><a href="#">Formations</a></li>
-              <li><a href="#">Admission</a></li>
-              <li><a href="#">Projets</a></li>
-              <li><a href="#">Actualités</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#accueil">Accueil</a></li>
+              <li><a href="#formation">Formations</a></li>
+              <li><a href="#admission">Admission</a></li>
+              <li><a href="#projets">Projets</a></li>
+              <li><a href="#actualite">Actualités</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
             <!-- Le bouton postuler -->
@@ -40,7 +40,7 @@
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <main>
       <!-- LA SECTION HERO -->
-      <section class="hero-section">
+      <section class="hero-section" id="accueil">
         <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
         <!-- La partie se trouvant à gauche contenant : Le titre, le sous-titre et les boutons -->
         <div class="part-left">
@@ -57,7 +57,7 @@
         <!-- ------------------------------------------------------------------------------------------ -->
         <!-- La partie se trouvant à droite contenant : L'image ou la photo de couverture' -->
         <div class="part-right">
-          <img src="./src/Assets/imageHero.png" alt="image illustrative de personnes autour d'un bureau ">
+          <img src="./src/Assets/imageHero.png" alt="image illustrative de personnes autour d'un bureau " class="img-hero">
         </div>
       </section>
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -65,7 +65,7 @@
 
       <!-- LA SECTION STATISTIUES -->
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <section class="statistic-section">
+      <section class="statistic-section" id="actualite">
         <!-- La carte statistiques taux d'apprenants -->
         <div class="statistic-card">
           <h2 class="titre-card">500+</h2>
@@ -96,7 +96,7 @@
 
       <!-- LA SECTION FORMATIONS -->
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-      <section class="formation-section">
+      <section class="formation-section" id="formation">
         <!-- Le titre de la section formations -->
         <h1 class="titre-formation">Nos formations</h1>
         <!-- Le sous-titre de la section formation -->
@@ -135,9 +135,14 @@
       
       <!-- LA SECTION PROJETS DES ÉTUDIANTS -->
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-       <section class="project-section">
+      <div class="ligne-container">
+        <hr class="ligne">
+        <hr class="ligne">
+        <hr class="ligne">
+      </div>
+       <section class="project-section" id="projets">
         <!-- Le titre de la section Projets des étudaints -->
-        <h1 class="titre-formation">Projets des étudaints</h1>
+        <h1 class="titre-formation">Projets des étudiants</h1>
         <!-- Le sous-titre de la section Projets des étudiants -->
         <p class="sous-titre-formation">Découvrez les réalisations de nos apprenants</p>
         <!-- Le conteneur des cartes réalisation des étudiants -->
@@ -190,8 +195,9 @@
       
       <!-- LA SECTION TÉMOIGNAGES -->
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+       
        <section class="testimony-section">
-        <!-- Le titre de la section formations -->
+        <!-- Le titre de la section Témoignage -->
         <h1 class="titre-formation">Témoignages</h1>
         <!-- La carte témoignages -->
         <div class="card-temoignage">
@@ -200,8 +206,39 @@
         </div>
        </section>
       <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+      
 
+      
+      <!-- LA SECTION POSTULEZ MAINTENANT -->
+      <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+        <section class="post-now-section" id="admission">
+          <!-- Le titre de la section Postulez maintenant -->
+            <h1 class="titre-formation">Postulez maintenant</h1>
+            <!-- Le bouton Postulez Maintenant -->
+            <button class="btn-postulez-maintenant">Postulez maintenant</button>
+        </section>
+      <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     </main>
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+    <!-- Pieds de la page -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <footer>
+      <section class="footer-container" id="contact">
+        <img src="./src/Assets/logoEcole241.png" alt="Logo de l'École 241">
+        <hr class="ligne">
+        <p class="location">Libreville, Gabon</p>
+        <p class="contact">contact@ecole241.org</p>
+        <hr class="ligne">
+        <ul>
+          <li><a href="#">FaceBook</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </section>
+
+    </footer>
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <script type="module" src="./src/main.js"></script>

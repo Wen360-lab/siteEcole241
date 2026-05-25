@@ -1,6 +1,11 @@
 header{
     display: flex;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fff;
+    box-shadow: 0 2px 12px #dbd9d9;
 }
 
 .header-container {
@@ -58,6 +63,27 @@ header{
     padding: 10px 35px;
     cursor: pointer;
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+/* Responsive de ka section Header */
+
+@media screen and (max-width : 1208px){
+    .nav {
+        display: none;
+    }
+
+    .header-container {
+        justify-content: center;
+        margin: auto;
+        gap: 45px;
+    }
+
+    .btn-postuler {
+        padding: 8px 20px;
+        font-size: 10px;
+    }   
+}
+/* ------------------------------------------------------------------------------------------------ */
 
 
 

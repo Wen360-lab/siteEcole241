@@ -13,7 +13,6 @@ main {
     justify-content: center;
 }
 
-
 .part-left {
     display: flex;
     flex-direction: column;
@@ -74,5 +73,47 @@ main {
     font-size: 14px;
     color: #555555;
 }
+/* ---------------------------------------------------------------------------------------------------------------- */
 
+
+/* STYLE DE LA SECTION FORMATIONS */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.formation-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.titre-formation {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.sous-titre-formation {
+    font-size: 16px;
+}
+
+.formation-cards-container {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.formation-card {
+    padding: 50px 80px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.titre-card-formation {
+    font-size: 12px;
+    font-weight: 700;
+}
 /* ---------------------------------------------------------------------------------------------------------------- */

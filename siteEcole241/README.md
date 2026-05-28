@@ -16,10 +16,16 @@ Pour se projet, les technologies utilisées sont :
 Les langages **HTML5**, **CSS3** et **JavaScript** pour assurer respectivement la structure, le style et le dynamisme de la page.
 
 - Les **outils** sont :
-**Vite**, pour l'initiasation et la création du projet
-**Git et Github** pour le versionnement
+**Vite**, pour l'initialisation et la création du projet, 
+**Git et Github** pour le versionnement, 
 **VS Code** comme environnement de développment.
 
+## Les instructions de lancement :
+D'abord, comme dit plus haut, le projet a été initialisé avec **Vite** et le gestionnaire de packages **npm**.
 
-## Les fonctionnalité du site : 
+Afin de lancer le projet en local il suffit de suivre les étapes suivantes :
+- Forker le dépôt se trouvant à l'adresse suivante : https://github.com/Wen360-lab/siteEcole241/tree/develop;
+- Clonner le dépôt précédemment forké en local (le votre);
+- ouvrez le projet avec Vs Code
+- lancer le serveur via la commande **npm run dev** en s'assurant d'avoir **Node.js**, **vite**, et **npm** d'intsaller sur votre machine.
 
